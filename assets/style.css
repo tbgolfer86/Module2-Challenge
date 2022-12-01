@@ -44,9 +44,6 @@ nav ul li {
 a {
     text-decoration: none;
     color: rgb(223, 239, 76);
-    outline: auto;
-    outline-color: rgb(15, 168, 56);
-    background-color: rgb(18, 174, 70);
 }
 
 img {
