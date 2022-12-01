@@ -41,7 +41,7 @@ nav ul li {
     display: inline-block;
 }
 
-a {
+.yellow a {
     text-decoration: none;
     color: rgb(223, 239, 76);
 }
@@ -126,6 +126,11 @@ img {
 .contact-me-container ul li {
     display: inline;
     padding: 25px;
+}
+
+.contact-me-container a {
+    text-decoration: none;
+    color: black;
 }
 /* End Contact Me section styling */
 
