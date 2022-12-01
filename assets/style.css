@@ -1,0 +1,102 @@
+body {
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    margin: 0%;
+}
+
+/* HEADER and BANNER styling */
+header {
+    background-color: rgb(85, 116, 93);
+    height: 100px;
+}
+
+h1 {
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(32, 215, 22);   
+}
+
+nav {
+    float: right;
+    margin-right: 2%;
+    margin-top: 1%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 5px;
+    margin-top: 2%;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(223, 239, 76);
+    outline: auto;
+    outline-color: rgb(15, 168, 56);
+    background-color: rgb(18, 174, 70);
+}
+
+.banner {
+    height: 175px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../assets/IMG_2216.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+/* SECTION styling */
+.content {
+    width: 100%;
+    margin-left: 5%;
+}
+
+h2 {
+    display: inline;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    margin-left: 0%;
+    
+}
+
+.content p {
+    display: inline-block;
+    margin-right: 10%;
+    margin-left: 33%;
+    margin-top: -2%;
+}
+
+.contact ul li {
+    display:inline-block;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 66%;
+    margin-left: 33%;
+    margin-right: 2%;
+    margin-top: -2%;
+    height: 400px;
+ }
+
+.boxes li {
+    width: 33%;
+    list-style-type: none;
+}
+
