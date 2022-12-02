@@ -25,7 +25,7 @@ h1 {
     padding: 1%;
 }
 
-/* nav bar styling */
+/* both nav bar stylings */
 nav ul {
     display: flex;
     justify-content: flex-end;
@@ -43,11 +43,12 @@ nav li {
 
 li a {
     text-decoration: none;
+    color: var(--spacey);
 }
 
 li a:hover {
-    background-color: var(--spacey);
-    color: var(--firey);
+    background-color: var(--firey);
+    color: rgb(144, 236, 5);
 }
 
 /* banner image */
@@ -56,6 +57,19 @@ img {
     width: 100%;
     margin-bottom: 25px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* About Me section styling */
 .about {
@@ -71,7 +85,7 @@ img {
 }
 
 .about p {
-    flex: 1 0 37%;
+    flex: 1 0 38%;
 }
 
 /* Work section styling */
@@ -98,6 +112,44 @@ img {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+/* Resume section styling */
+.resume {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+
+.resume h2 {
+    flex: auto;
+    font-size: 40px;
+}
+
+.resume p {
+    margin-right: 27%;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer styling */
 footer {
