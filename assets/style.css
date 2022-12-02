@@ -1,50 +1,55 @@
+:root {
+    --firey: rgb(255, 111, 0);
+    --spacey: rgb(7, 35, 102);
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background: rgb(189, 186, 186);
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--firey);
+    background-color: var(--spacey);
 }
 
-
-/* Header styling */
 header {
-    background-color: rgb(85, 116, 93);
-    height: 100px;
+    width: 100%;
+    margin: 0;
+    margin-top: 2%;
 }
 
 h1 {
-    display: inline-block;
+    display: inline;
     margin-left: 2%;
-    margin-top: 2%;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    color: rgb(32, 215, 22);   
 }
 
-nav {
-    float: right;
-    margin-right: 2%;
-    margin-top: 1%;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 35px;
-}
-
-nav ul {
+ul {
     list-style-type: none;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--firey);
     margin-top: 2%;
+    border-width: 5%;
 }
 
-nav ul li {
-    display: inline-block;
+li {
+    float: right;
 }
 
-.yellow a {
+li a {
+    display: block;
+    color: var(--spacey);
+    text-align: center;
+    padding: 12px 14px;
     text-decoration: none;
-    color: rgb(223, 239, 76);
+}
+
+li a:hover {
+    background-color: var(--spacey);
+    color: var(--firey);
 }
 
 img {
@@ -52,108 +57,63 @@ img {
     width: 100%;
     margin-bottom: 25px;
 }
-/* End header styling */
-
-
 
 /* About Me section styling */
-.about-me-container {
-    width: 75%;
-    margin-bottom: 5%;
-}
-
-.about-me-container h2 {
-    display: inline;
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(0, 0, 0);
-    margin-left: 20%;
-}
-
-.about-me-container p {
+h2 {
     display: inline-block;
-    width: 66%;
-    margin-right: 10%;
-    margin-left: 50%;
+    font-size: 30px;
+    color: var(--firey);
+    margin-left: 18%;
+    margin-top: 4%;
+    padding-bottom: 8%;
 }
-/* End About Me styling */
 
-
+p {
+    width: 50%;
+    float: right;
+    margin-right: 5%;
+    padding-bottom: 3%;
+}
 
 /* Work section styling */
-.work-container {
-    width: 75%;
-    margin-bottom: 5%;
-}
-
-.work-container h2 {
-    display: inline;
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(0, 0, 0);
-    margin-left: 20%;
-}
-
 .grid {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-left: 50%;
-    width: 75%;
+    margin-right: 5%;
+    margin-left: 44%;
+    margin-top: -12%;
+    width: 50%;
 }
-/* End Work section styling */
-
-
 
 /* Contact Me section styling */
-.contact-me-container {
-    width: 75%;
+.contacts {
+    display: inline;
+    width: 33%;
     margin-bottom: 5%;
+    color: var(--spacey);
 }
 
-.contact-me-container h2 {
+.contacts li  {
+    color: var(--firey);
+    margin-right: 8%;
+    margin-top: 5%;
+}
+
+.contacts li a {
     display: inline;
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(0, 0, 0);
-    margin-left: 20%;
-}
-
-.contact-me-container ul {
-    margin-left: 66%;
-    width: 66%;
-}
-
-.contact-me-container ul li {
-    display: inline;
-    padding: 25px;
-}
-
-.contact-me-container a {
     text-decoration: none;
-    color: black;
+    color: var(--firey)
 }
-/* End Contact Me section styling */
-
-
 
 /* Resume Section styling */
-.resume-container {
-    width: 75%;
-    margin-bottom: 5%;
-}
-
-.resume-container h2 {
+.resume div {
     display: inline;
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(0, 0, 0);
-    margin-left: 20%;
+    float: right;
+    margin-right: 25%;
+    margin-top: 5%;
 }
-/* End Resume section styling */
-
-
 
 /* Footer styling */
 footer {
@@ -163,7 +123,7 @@ footer {
 }
 
 footer h3 {
-    color: rgb(1, 1, 62);
-    font-size: 14px;
+    color: var(--firey);
+    font-size: 12px;
     text-align: center;
 }
