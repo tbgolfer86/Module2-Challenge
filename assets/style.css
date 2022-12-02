@@ -7,6 +7,7 @@ body {
     background: rgb(189, 186, 186);
 }
 
+
 /* Header styling */
 header {
     background-color: rgb(85, 116, 93);
@@ -104,6 +105,7 @@ img {
 /* End Work section styling */
 
 
+
 /* Contact Me section styling */
 .contact-me-container {
     width: 75%;
@@ -134,6 +136,8 @@ img {
 }
 /* End Contact Me section styling */
 
+
+
 /* Resume Section styling */
 .resume-container {
     width: 75%;
@@ -148,6 +152,8 @@ img {
     margin-left: 20%;
 }
 /* End Resume section styling */
+
+
 
 /* Footer styling */
 footer {
