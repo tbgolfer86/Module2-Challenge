@@ -22,7 +22,11 @@ header {
 h1 {
     font-size: 40px;
     margin: 1%;
-    padding: 1%;
+}
+
+h2 {
+    flex: auto;
+    font-size: 35px;
 }
 
 /* both nav bar stylings */
@@ -53,23 +57,12 @@ li a:hover {
 
 /* banner image */
 img {
-    height: 250px;
+    height: 200px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 2%;
+    border-bottom: solid;
+    border-width: 36px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* About Me section styling */
 .about {
@@ -79,14 +72,19 @@ img {
     margin: 5%;
 }
 
-.about h2 {
-    flex: auto;
-    font-size: 40px;
-}
-
 .about p {
     flex: 1 0 38%;
 }
+
+
+
+
+
+
+
+
+
+
 
 /* Work section styling */
 .work {
@@ -94,11 +92,6 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     margin: 5%;
-}
-
-.work h2 {
-    flex: auto;
-    font-size: 40px;
 }
 
 .work div {
@@ -113,6 +106,21 @@ img {
     justify-content: space-evenly;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Resume section styling */
 .resume {
     display: flex;
@@ -121,46 +129,22 @@ img {
     margin: 5%;
 }
 
-.resume h2 {
-    flex: auto;
-    font-size: 40px;
-}
-
 .resume p {
     margin-right: 27%;
     font-size: 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Footer styling */
 footer {
-    height: 5%;
+    height: 4%;
     width: 100%;
 }
 
 h4 {
     color: var(--spacey);
     background-color: var(--firey);
-    font-size: 40px;
+    font-size: 30px;
     text-align: right;
-    padding: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
 }
