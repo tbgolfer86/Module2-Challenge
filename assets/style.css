@@ -137,3 +137,19 @@ h4 {
     padding-right: 1%;
     padding-top: 1%;
 }
+
+
+/* Cards are split into two columns at 992px or smaller */
+@media screen and (max-width: 992px) {
+    .grid {
+      width: 50%;
+    }
+  }
+  
+  /* Cards are stacked on top of each other at 768px or smaller */
+  @media screen and (max-width: 768px) {
+    .grid {
+      width: 100%;
+    }
+  }
+
