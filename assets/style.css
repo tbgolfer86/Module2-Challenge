@@ -1,6 +1,6 @@
 :root {
     --firey: rgb(0, 0, 0);
-    --spacey: rgb(61, 108, 219);
+    --spacey: rgb(21, 32, 58);
     --bright: rgb(255, 0, 68);
     --light: white;
 }
@@ -18,18 +18,19 @@ body {
 
 header {
     width: 100%;
-    margin-top: 1%;
+    margin: 0%;
 }
 
 h1 {
     font-size: 40px;
-    margin: 1%;
+    margin: 0%;
 }
 
 h2 {
     flex: auto;
     font-size: 35px;
     margin-left: 5%;
+    padding-bottom: 10px;
 }
 
 /* both nav bar stylings */
@@ -55,7 +56,7 @@ li a {
 
 li a:hover {
     background-color: var(--firey);
-    color: rgb(144, 236, 5);
+    color: var(--light);
 }
 
 /* banner image */
@@ -64,7 +65,7 @@ img {
     width: 100%;
     margin-bottom: 2%;
     border-bottom: solid;
-    border-width: 36px;
+    border-width: 38px;
 }
 
 /* About Me section styling */
@@ -76,8 +77,10 @@ img {
 }
 
 .about p {
-    flex: 1 0 35%;
+    flex: 3 0 50%;
 }
+
+
 
 /* Work section styling */
 .work {
@@ -88,7 +91,7 @@ img {
 }
 
 .work div {
-    flex: 1 0 30%;
+    flex: 3 0 25%;
     
 }
 
@@ -99,17 +102,26 @@ img {
     justify-content: space-evenly;
 }
 
-.grid img {
-    height: 200px;
-    width: 300px;
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    height: 225px;
+    width: 325px;
     border-radius: 10px;
     border-bottom: none;
 }
 
-.grid img:hover {
+.card img:hover {
     border-style: solid;
     border-width: 5px;   
 }
+
+
 
 /* Resume section styling */
 .resume {
@@ -117,11 +129,15 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     margin: 5%;
+    align-items: baseline;
 }
 
 .resume p {
-    font-size: 40px;
+    flex: 4 0 25%;
+    font-size: 20px;
 }
+
+
 
 /* Footer styling */
 footer {
@@ -139,17 +155,32 @@ h4 {
 }
 
 
-/* Cards are split into two columns at 992px or smaller */
+
+
+
+
 @media screen and (max-width: 992px) {
-    .grid {
-      width: 50%;
-    }
-  }
-  
-  /* Cards are stacked on top of each other at 768px or smaller */
-  @media screen and (max-width: 768px) {
     .grid {
       width: 100%;
     }
   }
+  
 
+@media screen and (max-width: 768px) {
+    header {
+      background-color: var(--firey);
+    }
+    h1 {
+      color: var(--light);
+    }
+  }
+
+
+@media screen and (max-width: 576px) {
+    header {
+      background-color: var(--bright);
+    }
+    h1 {
+      color: var(--firey);
+    }
+  }
