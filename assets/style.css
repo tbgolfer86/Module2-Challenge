@@ -61,12 +61,13 @@ li a:hover {
 }
 
 /* banner image */
-img {
+.banner {
     height: 200px;
     width: 100%;
     margin-bottom: 2%;
     border-bottom: solid;
     border-width: 38px;
+    background-image: url(aurora-1197753_1280.jpg);
 }
 
 /* About Me section styling */
