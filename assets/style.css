@@ -96,7 +96,7 @@ img {
     
 }
 
-.grid {
+.cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -164,7 +164,7 @@ h4 {
 
 
 @media screen and (max-width: 992px) {
-    .grid {
+    .cards {
       width: 100%;
     }
   }
