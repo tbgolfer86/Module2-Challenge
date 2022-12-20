@@ -8,7 +8,7 @@ N/A
 
 # Usage
 
-This application has links in the navigation bar that relocate the user to the corresponding section on the page. The "Contact Me" section in the footer includes a link to my personal GitLab page.
+This application has links in the navigation bar that relocate the user to the corresponding section on the page. The "Contact Me" section in the footer includes a link to my personal GitHub page.
 
 https://tbgolfer86.github.io/Module2-Challenge-Portfolio-Site/
 
