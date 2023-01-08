@@ -19,6 +19,7 @@ body {
 /* header styling */
 h1 {
     font-size: 40px;
+    margin-left: 2%;
 }
 
 .banner {
@@ -53,24 +54,14 @@ li a:hover {
     color: var(--light);
 }
 
-/* section layout */
+/* section layouts */
 h2 {
     font-size: 35px;
+    margin-left: 15%;
+    white-space: nowrap;
 }
 
-.about {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.work {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.resume {
+.section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
