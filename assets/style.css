@@ -55,6 +55,11 @@ li a:hover {
     color: var(--light);
 }
 
+footer {
+    border-style: solid;
+    border-bottom: 5px;
+}
+
 h4 {
     color: var(--light);
     background-color: var(--firey);
