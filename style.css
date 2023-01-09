@@ -18,17 +18,10 @@ body {
     background-color: var(--light);
 }
 
-/************ header and footer styling ************/
+/************ header styling ************/
 h1 {
     font-size: 40px;
     padding-left: 1%;
-}
-
-.banner {
-    height: 20vh;
-    border-bottom: solid;
-    border-width: 36px;
-    background-image: url(aurora-1197753_1280.jpg);
 }
 
 ul {
@@ -55,19 +48,9 @@ li a:hover {
     color: var(--light);
 }
 
-footer {
-    background-color: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-h4 {
-    color: var(--light);
-    background-color: var(--firey);
-    font-size: 30px;
-    text-align: right;
-    padding-right: 2%;
-    padding-top: 1%;
+#banner {
+    height: 10vh;
+    width: 100%;
 }
 
 /************ main section layout ************/
@@ -89,7 +72,6 @@ h2 {
     width: 60%;
 }
 
-/************ work section card styling ************/
 .cards  {
     display: flex;
     flex-direction: column;
@@ -135,7 +117,21 @@ a:hover {
     margin-top: 10px;
 }
 
+/************ footer styling ************/
+footer {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
+h4 {
+    color: var(--light);
+    background-color: var(--firey);
+    font-size: 30px;
+    text-align: right;
+    padding-right: 2%;
+    padding-top: 1%;
+}
 
 
 
