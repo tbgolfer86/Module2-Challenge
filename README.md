@@ -12,5 +12,5 @@ This application has links in the navigation bar that relocate the user to the c
 
 https://tbgolfer86.github.io/Module2-Challenge-Portfolio-Site/
 
-![alt text](assets/Screenshot%202022-12-02%20at%209.40.54%20PM.png)
-![alt text](assets/Screenshot%202022-12-02%20at%209.41.27%20PM.png)
+![alt text](Screenshot%202023-01-08%20at%207.13.54%20PM.png)
+![alt text](Screenshot%202023-01-08%20at%207.14.14%20PM.png)
