@@ -76,6 +76,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 1%;
 }
 
 a img {
@@ -94,7 +95,7 @@ a img:hover {
     display: grid;
     grid-template-columns: 49% 49%;
     grid-column-gap: 2%;
-    grid-row-gap: 2%;
+    grid-row-gap: 1%;
 }
 
 /************ footer styling ************/
