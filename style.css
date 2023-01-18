@@ -97,11 +97,6 @@ a img:hover {
     grid-row-gap: 2%;
 }
 
-/************ resume section styling ************/
-.resume {
-    margin-top: 10px;
-}
-
 /************ footer styling ************/
 footer {
     background-color: black;
