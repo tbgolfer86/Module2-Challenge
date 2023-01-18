@@ -10,7 +10,7 @@ N/A
 
 This application has links in the navigation bar that relocate the user to the corresponding section on the page. The "Contact Me" section in the footer includes a link to my personal GitHub page.
 
-https://tbgolfer86.github.io/Module2-Challenge-Portfolio-Site/
+https://tbgolfer86.github.io/Portfolio-Site/
 
 ![alt text](Screenshot%202023-01-09%20at%2012.42.01%20PM.png)
 ![alt text](Screenshot%202023-01-09%20at%2012.43.02%20PM.png)
