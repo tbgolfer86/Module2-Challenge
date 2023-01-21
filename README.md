@@ -12,5 +12,4 @@ This application has links in the navigation bar that relocate the user to the c
 
 https://tbgolfer86.github.io/Portfolio/
 
-![alt text](assets/images/Screenshot%202023-01-21%20at%204.34.06%20PM.png)
-![alt text](assets/images/Screenshot%202023-01-21%20at%204.34.51%20PM.png)
+![alt text](assets/images/Screenshot%202023-01-21%20at%204.54.36%20PM.png)
