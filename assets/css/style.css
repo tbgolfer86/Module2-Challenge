@@ -28,7 +28,7 @@ h1 {
     padding-left: 1%;
 }
 
-ul {
+header ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -36,7 +36,7 @@ ul {
     background-color: var(--firey);
 }
 
-ul li {
+header ul li {
     color: var(--bright);
     font-size: 1rem;
     font-weight: bold;
@@ -121,9 +121,31 @@ h3 {
 
 /************ footer styling ************/
 footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     background-color: black;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--firey);
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+footer ul li {
+    color: var(--bright);
+    font-size: .85rem;
+    font-weight: bold;
+    white-space: nowrap;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 footer img {
