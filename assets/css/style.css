@@ -113,8 +113,7 @@ footer {
     flex-direction: row;
     justify-content: flex-end;
     background-color: var(--firey);
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 3%;
 }
 
 footer ul {
@@ -123,8 +122,6 @@ footer ul {
     justify-content: space-between;
     align-items: center;
     background-color: var(--firey);
-    padding-left: 2px;
-    padding-right: 2px;
 }
 
 footer ul li {
