@@ -175,4 +175,7 @@ footer a img:hover {
     .right-side-col {
         width: 100%;
     }
+    footer {
+        padding-bottom: 5%;
+    }
   }
