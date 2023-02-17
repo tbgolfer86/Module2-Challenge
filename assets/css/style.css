@@ -70,7 +70,23 @@ h2 {
     padding-left: 12%;
 }
 
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+
+.icons img {
+    max-width: 100%;
+    max-height: 3.5rem;
+}
+
+
+
 .right-side-col {
+    display: flex;
+    flex-direction: column;
     width: 60%;
 }
 
