@@ -80,7 +80,6 @@ h2 {
 .icons img {
     max-width: 100%;
     max-height: 3.5rem;
-    padding: 2%;
 }
 
 .right-side-col {
@@ -166,6 +165,9 @@ footer a img:hover {
 
 /************ media queries ************/
 @media screen and (max-width: 992px) {
+    .icons img {
+      padding: 1%;
+    }
     .cards {
       width: 100%;
     }
@@ -178,6 +180,9 @@ footer a img:hover {
     h1 {
       color: var(--light);
     }
+    .icons img {
+        padding: 2%;
+    }
   }
 
 @media screen and (max-width: 576px) {
@@ -188,15 +193,15 @@ footer a img:hover {
       color: var(--firey);
     }
     .right-side-col {
-        width: 100%;
+      width: 100%;
     }
     footer {
-        padding-bottom: 5%;
+      padding-bottom: 5%;
     }
   }
 
-  @media screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
     .icons img {
-        padding: 3%;
+      padding: 3%;
     }
   }
