@@ -9,13 +9,6 @@
     margin: 0;
 }
 
-body {
-    min-height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
-    color: var(--firey);
-    background-color: var(--light);
-}
-
 /************ header styling ************/
 header {
       background-color: var(--firey);
@@ -31,7 +24,6 @@ header ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: center;
     background-color: var(--firey);
 }
 
@@ -85,7 +77,7 @@ h2 {
 
 .icons img {
     max-height: 3.5rem;
-    padding: 1%;
+    padding: 1.5%;
 }
 
 .right-side-col {
