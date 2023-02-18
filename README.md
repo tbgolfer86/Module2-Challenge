@@ -22,11 +22,11 @@
 ---
 
   ## Usage
-  This application has links in the navigation bar that relocate the user to the corresponding section on the page and a pdf of my resume in a separate tab. The "Contact Me" section in the footer includes a link to my email, Github, and LinkedIn page.<br>
-  https://tbgolfer86.github.io/Portfolio/
+  This application has links in the navigation bar that relocate the user to the corresponding section on the page and a pdf of my resume in a separate tab. The "Contact Me" section in the footer includes a link to my email, Github, and LinkedIn page.<br><br>
+  https://tbgolfer86.github.io/Portfolio/<br><br>
 
-  ![alt text](./assets/images/Screenshot%202023-02-15%20at%2010.37.44%20PM.png)
-  ![alt text](./assets/images/Screenshot%202023-02-15%20at%2010.38.31%20PM.png)
+  ![alt text](./assets/images/Screenshot%202023-02-17%20at%209.12.34%20PM.png)<br><br>
+  ![alt text](./assets/images/Screenshot%202023-02-17%20at%209.13.06%20PM.png)
 
 ---
 
