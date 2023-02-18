@@ -167,15 +167,18 @@ p {
 }
 
 .github-link img {
-    max-height: 2rem;
+    max-height: 2.1rem;
 }
 
 .grid-github-link img {
-    max-height: 1.4rem;
+    max-height: 1.7rem;
 }
 
 .github-link img:hover, .grid-github-link img:hover {
     cursor: pointer;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
 }
 
 /************ footer styling ************/
