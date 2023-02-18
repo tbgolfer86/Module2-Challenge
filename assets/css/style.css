@@ -89,6 +89,17 @@ p {
     padding: 1.5%;
 }
 
+.titles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1%;
+}
+
+.titles img {
+    max-height: 2rem;
+}
+
 .right-side-col {
     display: flex;
     flex-direction: column;
@@ -104,6 +115,8 @@ p {
 
 h3 {
     font-size: 1rem;
+    padding-right: 2%;
+    white-space: nowrap;
 }
 
 .card a {
