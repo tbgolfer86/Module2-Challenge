@@ -67,6 +67,10 @@ h2 {
     padding-left: 12%;
 }
 
+p {
+    line-height: 1.25;
+}
+
 .icons {
     display: flex;
     flex-direction: row;
