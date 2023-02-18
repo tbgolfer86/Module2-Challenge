@@ -89,7 +89,7 @@ p {
     padding: 1.5%;
 }
 
-.titles {
+.titles, .grid-titles {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -98,6 +98,10 @@ p {
 
 .titles img {
     max-height: 2rem;
+}
+
+.grid-titles img  {
+    max-height: 1rem;
 }
 
 .right-side-col {
@@ -115,6 +119,12 @@ p {
 
 h3 {
     font-size: 1rem;
+    padding-right: 2%;
+    white-space: nowrap;
+}
+
+h4 {
+    font-size: .5em;
     padding-right: 2%;
     white-space: nowrap;
 }
