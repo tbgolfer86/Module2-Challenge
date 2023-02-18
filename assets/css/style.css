@@ -1,8 +1,6 @@
 :root {
-    --firey: rgb(0, 0, 0);
-    --spacey: rgb(21, 32, 58);
-    --bright: rgb(255, 0, 68);
-    --light: white;
+    --firey: rgb(17 17 17);
+    --bright: rgb(103 169 144);
 }
 
 * {
@@ -15,7 +13,7 @@ header {
 }
 
 h1 {
-    color: var(--light);
+    color: #c1c9c4;
     font-size: 2.25rem;
     padding-left: 1%;
 }
@@ -39,12 +37,12 @@ header ul li {
 
 ul li a {
     text-decoration: none;
-    color: var(--bright);
+    color:var(--bright);
 }
 
 li a:hover {
     background-color: var(--firey);
-    color: var(--light);
+    color: rgb(3, 86, 134);
 }
 
 header img {
@@ -53,6 +51,9 @@ header img {
 }
 
 /************ main section layout ************/
+main {
+    background-color: #839ab433;
+}
 .section-layout {
     display: flex;
     flex-direction: row;
@@ -130,7 +131,7 @@ footer {
     flex-direction: row;
     justify-content: flex-end;
     background-color: var(--firey);
-    padding: 3%;
+    padding: 2%;
 }
 
 footer ul {
@@ -138,16 +139,21 @@ footer ul {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--firey);
 }
 
 footer ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
     color: var(--bright);
-    font-size: .85rem;
-    font-weight: bold;
-    white-space: nowrap;
-    padding-left: 2px;
-    padding-right: 2px;
+    font-size: 13px;
+    padding: 1%;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: var(--bright);
 }
 
 footer a img {
@@ -171,7 +177,9 @@ footer a img:hover {
   }
   
 @media screen and (max-width: 768px) {
-    
+    footer ul li {
+      font-size: 11px;
+    }
   }
 
 @media screen and (max-width: 576px) {
@@ -181,4 +189,15 @@ footer a img:hover {
     footer {
       padding-bottom: 5%;
     }
+    footer ul li {
+      font-size: 14px;
+    }
   }
+
+@media screen and (max-width: 455px) {
+    footer ul li {
+      font-size: 10px;
+    }
+  }
+
+  
