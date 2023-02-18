@@ -7,6 +7,10 @@
     margin: 0;
 }
 
+body{
+    background-color: var(--firey);
+}
+
 /************ header styling ************/
 header {
       background-color: var(--firey);
@@ -52,7 +56,7 @@ header img {
 
 /************ main section layout ************/
 main {
-    background-color: #839ab433;
+    background-color: #e9e6e6;
 }
 .section-layout {
     display: flex;
