@@ -75,7 +75,7 @@ main {
 .card {
     display: flex;
     flex-direction: column;
-    padding-bottom: 4%;
+    margin-bottom: 5%;
 }
 
 h2 {
