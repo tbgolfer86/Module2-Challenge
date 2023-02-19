@@ -98,6 +98,14 @@ h4 {
     white-space: nowrap;
 }
 
+.bio {
+    display: flex;
+}
+
+.bio img {
+    max-height: 7rem;
+}
+
 p {
     line-height: 1.25;
 }
