@@ -1,6 +1,7 @@
 :root {
     --firey: rgb(17 17 17);
-    --bright: rgb(103 169 144);
+    --bright: rgb(148, 216, 169);
+    --card-header: rgb(205 231 186);
 }
 
 * {
@@ -46,7 +47,7 @@ ul li a {
 
 li a:hover {
     background-color: var(--firey);
-    color: rgb(121, 195, 145);
+    color: rgb(194, 255, 13);
 }
 
 header img {
@@ -87,13 +88,13 @@ h2 {
 
 h3 {
     font-size: 1.75rem;
-    padding-right: 2%;
+    padding: 2%;
     white-space: nowrap;
 }
 
 h4 {
     font-size: 1.25em;
-    padding-right: 2%;
+    padding: 2%;
     white-space: nowrap;
 }
 
@@ -121,6 +122,9 @@ p {
     justify-content: space-between;
     padding: 1%;
     width: 100%;
+    background-color: var(--card-header);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .main-project-icons, .grid-project-icons {
@@ -144,7 +148,8 @@ p {
 .screenshot-link img {
     height: 100%;
     width: 100%;
-    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .screenshot-link img:hover {
@@ -217,7 +222,7 @@ footer li a img {
 }
 
 footer li a img:hover {
-    cursor: pointer;   
+    cursor: pointer;
 }
 
 
