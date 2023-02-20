@@ -96,9 +96,9 @@ h4 {
 
 #avatar {
     float: left;
-    border-radius: 50%;
-    height: 5.5rem;
-    width: 5.5rem;
+    border-radius: 10px;
+    height: 7rem;
+    width: 7rem;
     margin-right: 2%;
     background-image: url(../images/IMG_2216.jpg);
     background-size: cover;
