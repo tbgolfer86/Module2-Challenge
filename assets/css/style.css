@@ -75,6 +75,28 @@ main {
     margin-bottom: 5%;
 }
 
+.card-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 32%;
+    background: rgb(87, 87, 87);
+    border-bottom-right-radius: 10px;
+}
+
+.card-summary p {
+    line-height: 1;
+    padding: 2%;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
 h2 {
     font-size: 2rem;
     white-space: nowrap;
@@ -137,11 +159,11 @@ p {
 
 .main-project-icons, .grid-project-icons {
     display: flex;
-    padding-right: 2%;
+    justify-content: center;
 }
 
 .main-project-icons img {
-    max-height: 2rem;
+    max-height: 1.5rem;
 }
 
 .grid-project-icons img  {
@@ -150,17 +172,46 @@ p {
 }
 
 .screenshot-link {
-    height: 100%;
-}
-
-.screenshot-link img {
-    height: 100%;
-    width: 100%;
+    height: 400px;
+    width: 68%;
+    background-image: url(../images/screenshots/Screenshot\ 2023-01-17\ at\ 8.17.17\ PM.png);
+    background-size: cover;
     border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 24px;
 }
 
-.screenshot-link img:hover {
+.mini-screenshot-link {
+    height: 200px;
+    width: 68%;
+    background-image: url(../images/screenshots/Screenshot\ 2023-02-18\ at\ 7.29.19\ PM.png);
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+}
+
+.mini-screenshot-link-1 {
+    height: 200px;
+    width: 68%;
+    background-image: url(../images/screenshots/Screenshot\ 2023-02-17\ at\ 4.57.15\ PM.png);
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+}
+
+.mini-screenshot-link-2 {
+    height: 200px;
+    width: 68%;
+    background-image: url(../images/screenshots/Screenshot\ 2023-02-12\ at\ 10.06.05\ PM.png);
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+}
+
+.mini-screenshot-link-3 {
+    height: 200px;
+    width: 68%;
+    background-image: url(../images/screenshots/Screenshot\ 2023-02-12\ at\ 10.06.05\ PM.png);
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+}
+
+.screenshot-link:hover, .mini-screenshot-link:hover, .mini-screenshot-link-1:hover, .mini-screenshot-link-2:hover, .mini-screenshot-link-3:hover {
     border-style: solid;
     border-width: 4px;
     border-color: rgb(150 157 152);
@@ -171,12 +222,6 @@ p {
     grid-template-columns: 49% 49%;
     grid-column-gap: 2%;
     grid-row-gap: 4%;
-}
-
-.github-link, .grid-github-link {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
 }
 
 .github-link img {
