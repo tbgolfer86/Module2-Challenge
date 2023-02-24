@@ -80,7 +80,7 @@ main {
     flex-direction: row;
 }
 
-.card-summary {
+.card-summary, .mini-card-summary {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -94,6 +94,13 @@ main {
     padding: 2%;
     color: #ffffff;
     font-size: 1.5rem;
+}
+
+.mini-card-summary p {
+    line-height: 1;
+    padding: 2%;
+    color: #ffffff;
+    font-size: 1rem;
 }
 
 h2 {
