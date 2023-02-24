@@ -334,6 +334,9 @@ footer li a img:hover {
         padding-right: 2%;
         white-space: nowrap;
     }
+    .mini-card-summary p {
+        font-size: 11px;
+    }
     footer {
         padding-bottom: 5%;
     }
@@ -352,9 +355,6 @@ footer li a img:hover {
         font-size: .7rem;
         padding-right: 2%;
         white-space: nowrap;
-    }
-    .mini-card-summary p {
-        font-size: 11px;
     }
     .main-project-icons img {
         max-height: 1.75rem;
