@@ -93,7 +93,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 60%;
+    width: 40%;
     background: rgb(141 141 141);
     border-bottom-right-radius: 10px;
 }
@@ -199,7 +199,7 @@ p {
 
 .mini-screenshot-link {
     height: 175px;
-    width: 40%;
+    width: 60%;
     background-image: url(../images/screenshots/Screenshot\ 2023-02-18\ at\ 7.29.19\ PM.png);
     background-size: cover;
     border-bottom-left-radius: 10px;
@@ -207,7 +207,7 @@ p {
 
 .mini-screenshot-link-1 {
     height: 175px;
-    width: 40%;
+    width: 60%;
     background-image: url(../images/screenshots/Screenshot\ 2023-02-17\ at\ 4.57.15\ PM.png);
     background-size: cover;
     border-bottom-left-radius: 10px;
@@ -215,7 +215,7 @@ p {
 
 .mini-screenshot-link-2 {
     height: 175px;
-    width: 40%;
+    width: 60%;
     background-image: url(../images/screenshots/Screenshot\ 2023-02-12\ at\ 10.06.05\ PM.png);
     background-size: cover;
     border-bottom-left-radius: 10px;
@@ -223,7 +223,7 @@ p {
 
 .mini-screenshot-link-3 {
     height: 175px;
-    width: 40%;
+    width: 60%;
     background-image: url(../images/screenshots/Screenshot\ 2023-02-12\ at\ 10.06.05\ PM.png);
     background-size: cover;
     border-bottom-left-radius: 10px;
@@ -351,6 +351,9 @@ footer li a img:hover {
         font-size: .7rem;
         padding-right: 2%;
         white-space: nowrap;
+    }
+    .mini-card-summary p {
+        font-size: 11px;
     }
     .main-project-icons img {
         max-height: 1.75rem;
