@@ -85,7 +85,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     width: 40%;
-    background: rgb(141 141 141);
+    background: rgb(86 86 86);
     border-bottom-right-radius: 10px;
 }
 
@@ -94,7 +94,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     width: 40%;
-    background: rgb(141 141 141);
+    background: rgb(86 86 86);
     border-bottom-right-radius: 10px;
 }
 
