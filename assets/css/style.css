@@ -80,12 +80,21 @@ main {
     flex-direction: row;
 }
 
-.card-summary, .mini-card-summary {
+.card-summary {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 32%;
-    background: rgb(87, 87, 87);
+    width: 40%;
+    background: rgb(141 141 141);
+    border-bottom-right-radius: 10px;
+}
+
+.mini-card-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    background: rgb(141 141 141);
     border-bottom-right-radius: 10px;
 }
 
@@ -94,13 +103,15 @@ main {
     padding: 2%;
     color: #ffffff;
     font-size: 1.5rem;
+    margin: 8px;
 }
 
 .mini-card-summary p {
     line-height: 1;
     padding: 2%;
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 13px;
+    margin: 4px;
 }
 
 h2 {
@@ -167,6 +178,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 4px;
 }
 
 .main-project-icons img {
@@ -175,12 +187,11 @@ p {
 
 .grid-project-icons img  {
     max-height: 1rem;
-    padding-right: 1%;
 }
 
 .screenshot-link {
-    height: 375px;
-    width: 68%;
+    height: 300px;
+    width: 60%;
     background-image: url(../images/screenshots/Screenshot\ 2023-01-17\ at\ 8.17.17\ PM.png);
     background-size: cover;
     border-bottom-left-radius: 10px;
@@ -188,7 +199,7 @@ p {
 
 .mini-screenshot-link {
     height: 175px;
-    width: 68%;
+    width: 40%;
     background-image: url(../images/screenshots/Screenshot\ 2023-02-18\ at\ 7.29.19\ PM.png);
     background-size: cover;
     border-bottom-left-radius: 10px;
@@ -196,7 +207,7 @@ p {
 
 .mini-screenshot-link-1 {
     height: 175px;
-    width: 68%;
+    width: 40%;
     background-image: url(../images/screenshots/Screenshot\ 2023-02-17\ at\ 4.57.15\ PM.png);
     background-size: cover;
     border-bottom-left-radius: 10px;
@@ -204,7 +215,7 @@ p {
 
 .mini-screenshot-link-2 {
     height: 175px;
-    width: 68%;
+    width: 40%;
     background-image: url(../images/screenshots/Screenshot\ 2023-02-12\ at\ 10.06.05\ PM.png);
     background-size: cover;
     border-bottom-left-radius: 10px;
@@ -212,7 +223,7 @@ p {
 
 .mini-screenshot-link-3 {
     height: 175px;
-    width: 68%;
+    width: 40%;
     background-image: url(../images/screenshots/Screenshot\ 2023-02-12\ at\ 10.06.05\ PM.png);
     background-size: cover;
     border-bottom-left-radius: 10px;
