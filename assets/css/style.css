@@ -317,6 +317,9 @@ footer li a img:hover {
 
 /************ media queries ************/
 @media screen and (max-width: 992px) {
+    .icons img {
+        max-height: 3.25rem;
+    }
     h4 {
         font-size: 1rem;
         padding-right: 2%;
@@ -335,9 +338,6 @@ footer li a img:hover {
         font-size: 1.5rem;
         padding-right: 2%;
         white-space: nowrap;
-    }
-    .icons img {
-        max-height: 3.25rem;
     }
     footer ul li {
         font-size: 10px;
