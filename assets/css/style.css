@@ -233,7 +233,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 40%;
+    width: 45%;
     height: 80%;
     background: rgb(5 5 5 / 78%);
     border-bottom-left-radius: 10px;
@@ -267,7 +267,7 @@ h4 {
 }
 
 .grid-project-icons img  {
-    max-height: 1rem;
+    max-height: 1.4rem;
 }
 
 /************ footer styling ************/
