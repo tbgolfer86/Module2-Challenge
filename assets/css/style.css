@@ -86,6 +86,7 @@ h2 {
     margin-right: 2%;
     background-image: url(../images/IMG_2216.jpg);
     background-size: cover;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 p {
@@ -112,6 +113,8 @@ p {
     display: flex;
     flex-direction: column;
     margin-bottom: 5%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 .grid {
@@ -234,7 +237,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 45%;
+    width: 50%;
     height: 80%;
     background: rgb(5 5 5 / 78%);
     border-bottom-left-radius: 10px;
