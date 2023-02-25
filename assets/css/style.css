@@ -147,18 +147,19 @@ h4 {
 }
 
 .github-link img {
-    max-height: 2.1rem;
+    max-height: 3rem;
 }
 
 .grid-github-link img {
-    max-height: 1.7rem;
+    max-height: 2rem;
 }
 
 .github-link img:hover, .grid-github-link img:hover {
     cursor: pointer;
     border-style: solid;
     border-color: white;
-    border-radius: 20px;
+    border-radius: 50%;
+    border-width: medium;
 }
 
 /************ card body ************/
