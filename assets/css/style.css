@@ -171,6 +171,7 @@ h4 {
     background-size: cover;
     text-decoration: none;
     border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .mini-screenshot-link {
@@ -182,6 +183,7 @@ h4 {
     background-size: cover;
     text-decoration: none;
     border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .mini-screenshot-link-1 {
@@ -193,6 +195,7 @@ h4 {
     background-size: cover;
     text-decoration: none;
     border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .mini-screenshot-link-2 {
@@ -204,6 +207,7 @@ h4 {
     background-size: cover;
     text-decoration: none;
     border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .mini-screenshot-link-3 {
@@ -215,6 +219,7 @@ h4 {
     background-size: cover;
     text-decoration: none;
     border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .screenshot-link:hover, .mini-screenshot-link:hover, .mini-screenshot-link-1:hover, .mini-screenshot-link-2:hover, .mini-screenshot-link-3:hover {
@@ -229,6 +234,7 @@ h4 {
     flex-direction: column;
     justify-content: space-between;
     width: 40%;
+    height: 80%;
     background: rgb(5 5 5 / 78%);
     border-bottom-left-radius: 10px;
 }
