@@ -240,6 +240,7 @@ h4 {
     width: 50%;
     height: 80%;
     background: rgb(5 5 5 / 78%);
+    backdrop-filter: blur(5px);
     border-bottom-left-radius: 10px;
 }
 
