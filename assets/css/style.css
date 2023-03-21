@@ -375,10 +375,10 @@ footer li a img:hover {
         white-space: nowrap;
     }
     .main-project-icons img {
-        max-height: 1.75rem;
+        max-height: 2.2rem;
     }
     .grid-project-icons img  {
-        max-height: .75rem;
+        max-height: 1rem;
         padding-right: 1%;
     }
     footer ul li {
